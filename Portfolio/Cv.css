@@ -1,23 +1,27 @@
 *{
-    margin: 0;
-    padding: 0;
+    
     box-sizing: border-box;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
   }
   body {
-    background-image: url(Img/hmk1.jpg);
-      padding: 1x;
-      margin: 1px; 
-      height: 300px; 
-      background-repeat: no-repeat;
+    /* background-image: url(Img/hmk1.jpg); */
+      
+      /* height: 300px;  */
+      /* background:fixed;  */
       background-position:center;
       backdrop-filter: blur(2px);
-      background-size: 100%;
+      
       
   }
+ .images{
+    background-image: url(Img/hmk1.jpg);
+    width: 99%;
+    height: 575px;
+ }
   nav{
     position: fixed;
-    width: 1523px;
+    margin: auto;
+    width: 98%;
     height: 50px;
     display: flex;
     justify-content: space-between;
@@ -66,7 +70,7 @@ h2{
 }
 .btn{
     padding: 10px;
-    margin: 5px;
+    margin: auto;
     text-transform: uppercase;
     font-family:Arial, Helvetica, sans-serif;
     background-color: rgb(19, 155, 17);
@@ -80,10 +84,11 @@ h2{
     background: transparent;
 }
 .btn1{
-    width:400px;
-    margin-left: 650px;
+    width:40%;
+    margin: auto;
 
 }
+
 .avtar{
    width: 200px;
    margin-top: 90px;
@@ -93,9 +98,9 @@ h2{
     display: flex;
     width: 80%;
     height: 95%;
-    margin-left:200px;
-    margin-top: 100px;
+    margin: auto;
     padding: 1px;
+    margin-top: 50px;
     background-color: rgba(207, 215, 216, 0.36);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border: 1px solid #868296;
@@ -122,9 +127,10 @@ th, td {
 .container2{
     padding: 30px;
     width: 80%;
-    height: 200px;
-    margin: 75px;
-    margin-left: 200px;
+    height: 250px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
     background-color: rgba(207, 215, 216, 0.36);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
     border: 1px solid #868296;
@@ -149,9 +155,9 @@ h3{
   }
   .container3 {
     display: flex;
-    width: 66%;
-    margin-left:250px;
-    margin-top: 20px;
+    width: 80%;
+    margin: auto    ;
+    margin-top: 10px;
     padding: 1px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     box-shadow: 2px 2px #c6c5c9;
@@ -172,8 +178,8 @@ h3{
   }
   .container4{
     display: flex;
-    width: 66%;
-    margin-left:250px;
+    width: 90%;
+    margin: auto;
     padding: 1px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     box-shadow: 2px 2px #c6c5c9;
@@ -201,7 +207,7 @@ h3{
     width: 80%;
     height: 225x;
     margin: 1px;
-    margin-left: 200px;
+    margin: auto;
     margin-top: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     box-shadow: 2px 2px #c6c5c9;
@@ -271,13 +277,13 @@ h3{
     width: 80%;
     height: 225x;
     margin: 1px;
-    margin-left: 200px;
+    margin: auto;
     margin-top: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     box-shadow: 2px 2px #c6c5c9;
     border: groove;
 }
-.edu2{
+/* .edu2{
     display: flex;
     padding: 3px;
     width: 80%;
@@ -301,14 +307,14 @@ h3{
     box-shadow: 2px 2px #c6c5c9;
     border: groove;
 
-}
+} */
 .Doc{
     display: flex;
     padding: 3px;
     width: 80%;
     height: 200px;
     margin: 1px;
-    margin-left: 200px;
+    margin: auto;
     margin-top: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     box-shadow: 2px 2px #f1f1f8;
@@ -370,10 +376,10 @@ input{
 }
 .fit{
     display: flex;
-    width: 20%;
-   justify-items: auto;
-     margin-left: 45%;
-    margin-top: 7%;
-   gap: 6%;
+    width: 10%;
+     margin: auto;
+     margin-top: 4%;
+    gap: 6%;
+    position: relative;
 }
 
